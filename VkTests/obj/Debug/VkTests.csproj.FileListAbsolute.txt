@@ -1,0 +1,11 @@
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\VkTests.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\VkTests.pdb
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\VkAutomation.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\WebDriver.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\WebDriver.Support.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\VkAutomation.pdb
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\WebDriver.xml
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\bin\Debug\WebDriver.Support.xml
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\obj\Debug\VkTests.csprojResolveAssemblyReference.cache
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\obj\Debug\VkTests.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkTests\obj\Debug\VkTests.pdb

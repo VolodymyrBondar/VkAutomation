@@ -1,0 +1,9 @@
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\bin\Debug\VkAutomation.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\bin\Debug\VkAutomation.pdb
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\bin\Debug\WebDriver.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\bin\Debug\WebDriver.Support.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\bin\Debug\WebDriver.xml
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\bin\Debug\WebDriver.Support.xml
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\obj\Debug\VkAutomation.csprojResolveAssemblyReference.cache
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\obj\Debug\VkAutomation.dll
+c:\users\volodymyr_bondar\documents\visual studio 2015\Projects\VkAutomation\VkAutomation\obj\Debug\VkAutomation.pdb
