@@ -13,6 +13,7 @@ namespace VkTests
             Driver.Initialize();
             Pages.LoginPage.GoTo();
             Pages.LoginPage.Login("someemail@gmail.com", "somepassword");
+            Assert.IsTrue(Pages.HomePage.IsAt(), "Login is not succesfull");
         }
 
         [TestCleanup]

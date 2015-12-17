@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,14 +32,25 @@ namespace VkAutomation
         [FindsBy(How = How.CssSelector, Using = ".text.olist_filter")]
         private IWebElement searchMusicForAlbumField;
 
-        [FindsBy(How = How.CssSelector, Using = ".olist_item_title.fl_l")]
+        [FindsBy(How = How.CssSelector, Using = ".olist_item.clear_fix")]
         private IList<IWebElement> searchMusicList;
 
         [FindsBy(How = How.ClassName, Using = "flat_button")]
         private IWebElement saveButton;
 
-        [FindsBy(How = How.XPath, Using = ".//*[@id='audio_albums_wrap']/div[2]")]
+        [FindsBy(How = How.XPath, Using = ".//*[@id='audio_albums_wrap']")]
         private IList<IWebElement> createdAlbums;
+
+        public ArrayList ListOfUserAlbums()
+        {
+            ArrayList listOfUserAlbums = new ArrayList();
+            for (int i = 0; i < createdAlbums.Count; i++)
+            {
+                listOfUserAlbums.Add(createdAlbums[i].Text);
+                Console.WriteLine(listOfUserAlbums[i]);
+            }
+            return listOfUserAlbums;
+        }
 
         public void SearchMusic(string music)
         {
@@ -60,11 +72,29 @@ namespace VkAutomation
         {
             searchMusicForAlbumField.SendKeys(music);
         }
-        public void AddMusicForAlbum()
+        public void AddMusicForAlbumByArtistName(string artistName)
         {
+            string s;
             for (int i = 0; i < searchMusicList.Count; i++)
             {
-                searchMusicList[i].Click();
+                s = searchMusicList[i].Text.Substring(0, searchMusicList[i].Text.IndexOf("–"));
+                if (s.Contains(artistName))
+                {
+                    searchMusicList[i].Click();
+                }   
+            }
+            saveButton.Click();
+        }
+        public void AddMusicForAlbumBySongName(string songName)
+        {
+            string s;
+            for (int i = 0; i < searchMusicList.Count; i++)
+            {
+                s = searchMusicList[i].Text.Substring(searchMusicList[i].Text.IndexOf("–"));
+                if (s.Contains(songName))
+                {
+                    searchMusicList[i].Click();
+                }
             }
             saveButton.Click();
         }

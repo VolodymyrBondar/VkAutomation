@@ -15,7 +15,8 @@ namespace VkTests
             Pages.MusicPage.GoToMyAlbums();
             Pages.MusicPage.CreateNewAlbum("Louis Armstrong");
             Pages.MusicPage.SearchMusicForAlbum("Louis Armstrong");
-            Pages.MusicPage.AddMusicForAlbum();
+            //Pages.MusicPage.AddMusicForAlbumBySongName("Louis Armstrong");
+            Pages.MusicPage.AddMusicForAlbumByArtistName("Louis Armstrong");
             Assert.IsTrue(Pages.MusicPage.ContainsCreatedAlbum("Louis Armstrong"));
         }
     }
